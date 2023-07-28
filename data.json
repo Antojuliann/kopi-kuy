@@ -1,0 +1,72 @@
+{
+    "arabica": [
+        {
+            "foto": "images/produk/product_capuchino.jpg",
+            "nama": "Cappuccino Arabica",
+            "size": "500 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_espresso.jpg",
+            "nama": "Pahit Arabica",
+            "size": "100 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Arabica",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+        }
+    ],
+    "robusta": [
+        {
+            "foto": "images/produk/product_kopi_susu.jpg",
+            "nama": "Kopsus Robusta",
+            "size": "100 Gram",
+            "harga": "500.000",
+            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Robusta",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+        }
+    ],
+    "nonkopi": [
+        {
+            "foto": "https://fibercreme.com/wp-content/uploads/2021/04/Dawet-Durian-1.jpg",
+            "nama": "Es Cendol",
+            "size": "100 Gram",
+            "harga": "50.000",
+            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+        },
+        {
+            "foto": "http://blog.sayurbox.com/wp-content/uploads/2020/06/gendut_kulineran-768x501.jpg",
+            "nama": "Es Campur",
+            "size": "100 Gram",
+            "harga": "50.000",
+            "link": "http://blog.sayurbox.com/10-resep-es-campur-buah-yang-sehat/"
+        },
+        {
+            "foto": "https://ik.imagekit.io/tk6ir0e7mng/uploads/2022/01/1643118572026.jpeg",
+            "nama": "Es Coklat",
+            "size": "100 Gram",
+            "harga": "50.000",
+            "link": "https://jogjaaja.com/read/es-coklat-panjang-umur-buka-cabang-di-blok-o-yogyakarta/"
+        },
+        {
+            "foto": "https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/01/22/41460384.jpg",
+            "nama": "Es Kuwut",
+            "size": "100 Gram",
+            "harga": "50.000",
+            "link": "https://www.banyumasterkini.com/lifestyle/6497994367/ide-menu-takjil-auto-zeger-sampe-tenggorokan-yuk-cobain-resep-es-kuwut-khas-bali-simpel-cuma-5-bahan-aja/"
+        }
+ 
+    ]
+}
