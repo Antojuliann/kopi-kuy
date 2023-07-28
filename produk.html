@@ -11,20 +11,20 @@
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css">
     <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
     <script src="js/jquery-3.6.3.min.js"></script>
     <style>
         /* tulis kode CSS internal di bawah sini */
 
-        @font-face {
-            src: url(../fonts/poppins.woff2);
-            font-family: 'Poppins';
-        }
+        
         body {
             /* 
             mendaftarkan semua teks pada body menjadi family Poppins 
             kenapa pada body? karena elemen body membungkus semua elemen dari nav section sampai footer
             */
-            font-family: 'Poppins';
+            font-family: 'Poppins', sans-serif;
         }
 
         .produk .card img {
@@ -242,17 +242,17 @@
 
 
         }
-        let list_belanja = []
+        var list_belanja = []
         function addToCart(item) {
             
-            list_belanja.push(item)
+            let list_belanja.push(item)
             localStorage.setItem("list_belanja", JSON.stringify(list_belanja))
             alert("Berhasil Menambah Produk")
             updateCartIcon()
         }
         function updateCartIcon() {
             cart_icon.classList.add("d-none")
-            list_belanja = localStorage.getItem("list_belanja")
+            let list_belanja = localStorage.getItem("list_belanja")
             if (list_belanja != null) {
                 list_belanja = JSON.parse(list_belanja)
                 cart_icon.textContent = list_belanja.length
